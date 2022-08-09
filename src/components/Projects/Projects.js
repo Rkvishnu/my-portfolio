@@ -6,11 +6,13 @@ import Particle from "../Particle";
 import DAO_project_solidity from "../../Assets/Projects/DAO-Project-Solidity.png";
 import cryptocurrencies from "../../Assets/Projects/cryptocurrency.png";
 import Defi_Exchange from "../../Assets/Projects/Defi-Exchange-Project.png";
-// import PortFolio from "../../Assets/Projects/PortFolio.png";
+import PortFolio from "../../Assets/Projects/PortFolio-Js.png";
 // import  weather_app from "../../Assets/Projects/weather-App-Javascript.png";
 import  New_year from "../../Assets/Projects/New-year.png";
 import  bitsOfCode from "../../Assets/Projects/about.png";
 import Open_sea from "../../Assets/Projects/8.png"
+import crowdfunding from "../../Assets/Projects/crowdfunds.png"
+
 
 function Projects() {
   return (
@@ -24,6 +26,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crowdfunding}
+              isBlog={false}
+              title="Web3-CrowdFunding-dApp"
+              description="Built a Decentralised Application where user can come and create a campaign for taking funding directly from public."
+              ghLink="https://github.com/Rkvishnu/web3-dapp"
+              demoLink="https://web3-fundraiser-youtube.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Defi_Exchange}
@@ -35,16 +48,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Web3-CrowdFunding-dApp"
-              description="Built a Decentralised Application where user can come and create a campaign for taking funding directly from public."
-              ghLink="https://github.com/Rkvishnu/web3-dapp"
-              // demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
+        
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -84,10 +88,19 @@ function Projects() {
               imgPath={New_year}
               isBlog={false}
               title="CountDown App"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="countdown application using HTML,CSS,JAVASCRIPT.."
               ghLink="https://github.com/Rkvishnu/Count-Down-app"
               demoLink="https://count-down-app-omega.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PortFolio}
+              isBlog={false}
+              title="CountDown App"
+              description="created an portfolio website using HTML,CSS and JAVASCRIPT."
+              ghLink=""
+              demoLink="https://portfolio-website-phi-wheat.vercel.app/"
             />
           </Col>
         </Row>
