@@ -13,6 +13,7 @@ import  bitsOfCode from "../../Assets/Projects/about.png";
 import Open_sea from "../../Assets/Projects/8.png"
 import crowdfunding from "../../Assets/Projects/crowdfunds.png"
 
+import lottery from "../../Assets/Projects/lottery-game.png"
 
 function Projects() {
   return (
@@ -48,7 +49,16 @@ function Projects() {
             />
           </Col>
 
-        
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lottery}
+              isBlog={false}
+              title="Lottery-Game-Chainlink"
+              description="Built a Decentralised Lottery game application using Next.JS,chainlink-VRfs,Polygon Blockchain,Solidity. where useris choosen randomly and wins the entire lottery pool. "
+              ghLink="https://github.com/Rkvishnu/lottery-game-chainlink"
+              demoLink="https://lottery-game-chainlink.vercel.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
