@@ -7,12 +7,9 @@ import DAO_project_solidity from "../../Assets/Projects/DAO-Project-Solidity.png
 import cryptocurrencies from "../../Assets/Projects/cryptocurrency.png";
 import Defi_Exchange from "../../Assets/Projects/Defi-Exchange-Project.png";
 import PortFolio from "../../Assets/Projects/PortFolio-Js.png";
-// import  weather_app from "../../Assets/Projects/weather-App-Javascript.png";
 import  New_year from "../../Assets/Projects/New-year.png";
-import  bitsOfCode from "../../Assets/Projects/about.png";
 import Open_sea from "../../Assets/Projects/8.png"
 import crowdfunding from "../../Assets/Projects/crowdfunds.png"
-
 import lottery from "../../Assets/Projects/lottery-game.png"
 
 function Projects() {
@@ -34,7 +31,7 @@ function Projects() {
               isBlog={false}
               title="Web3-CrowdFunding-dApp"
               description="Built a Decentralised Application where user can come and create a campaign for taking funding directly from public."
-              ghLink="https://github.com/Rkvishnu/web3-dapp"
+              ghLink="https://github.com/Rkvishnu/web3-crowdfunding-dapp-polygon"
               demoLink="https://web3-fundraiser-youtube.vercel.app/"
             />
           </Col>
