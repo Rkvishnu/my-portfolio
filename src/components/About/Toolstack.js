@@ -2,8 +2,10 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
+  SiGit,
+  SiGithub,
   SiVisualstudiocode,
-  SiNet,
+  SiAndroidstudio,
   SiHeroku,
   SiVercel,
   SiNetlify,
@@ -16,9 +18,17 @@ function Toolstack() {
         <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiGit/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAndroidstudio />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>

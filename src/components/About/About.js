@@ -39,13 +39,19 @@ function About() {
         </h1>
 
         <Techstack />
-
+         
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
 
         <Github />
+        <a href="https://github.com/Rkvishnu/github-readme-activity-graph">
+          <img
+            alt="Vishnu Rathore's Activity Graph"
+            src="https://activity-graph.herokuapp.com/graph?username=Rkvishnu&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true"
+          />
+        </a>
       </Container>
     </Container>
   );

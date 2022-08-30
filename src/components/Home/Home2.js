@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
+
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
@@ -89,8 +90,18 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+
+              I Am Deeply Interested in  Futuristic Blockchain Technologies such as :
+              <br/>
+               <b className="purple">Defi</b>,
+               <b className="purple">DAOs</b>,
+               <b className="purple">NFTs</b>,
+               <b className="purple">Metaverse</b>
+<br/>
+<br/>
+
+               My field of Interest's are building new  Web Applications Using&nbsp;
+              <i>
               <i>
                 <b className="purple">
                   {" "}
@@ -101,6 +112,8 @@ function Home2() {
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
+              </i>
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
