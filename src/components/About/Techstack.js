@@ -42,6 +42,12 @@ function Techstack() {
             </a>
           </Col>
           <Col xs={4} md={2} className="tech-icons">
+            <a href="https://docs.soliditylang.org/en/v0.8.14/">
+              {" "}
+              <img src="https://img.icons8.com/ios/100/000000/solidity.png" alt=" "/>{" "}
+            </a>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
             <a href="https://nextjs.org/">
               {" "}
               <img

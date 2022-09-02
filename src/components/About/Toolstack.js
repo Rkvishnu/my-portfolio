@@ -27,6 +27,15 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+            <a href=" ">
+              {" "}
+              <img
+                src="../../Assets/hardhat.svg"
+                alt=""
+              />{" "}
+            </a>
+          </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
