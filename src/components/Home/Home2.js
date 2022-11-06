@@ -3,18 +3,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-section-1" id="home">
+
       <Container>
-       
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -85,35 +86,35 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                 Web Development Decentralisation And Blockchain Technology
+                  Web Development Decentralisation And Blockchain Technology
                 </b>
               </i>
               <br />
               <br />
 
               I Am Deeply Interested in  Futuristic Blockchain Technologies such as :
-              <br/>
-               <b className="purple">Defi</b>,
-               <b className="purple">DAOs</b>,
-               <b className="purple">NFTs</b>,
-               <b className="purple">Metaverse</b>
-<br/>
-<br/>
+              <br />
+              <b className="purple">Defi</b>,
+              <b className="purple">DAOs</b>,
+              <b className="purple">NFTs</b>,
+              <b className="purple">Metaverse</b>
+              <br />
+              <br />
 
-               My field of Interest's are building new  Web Applications Using&nbsp;
+              My field of Interest's are building new  Web Applications Using&nbsp;
               <i>
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <i>
+                  <b className="purple">
+                    {" "}
+                    Modern Javascript Library and Frameworks
+                  </b>
+                </i>
+                &nbsp; like
+                <i>
+                  <b className="purple"> ReactJS ,NextJS, EtherJS</b>
+                </i>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> ReactJS ,NextJS, EtherJS</b>
-              </i>
-              </i>
-              
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
