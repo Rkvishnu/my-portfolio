@@ -9,7 +9,8 @@ import Toolstack from "./Toolstack";
 
 function About() {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="home-section-1" id="home">
+
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -21,9 +22,7 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
-            </h1>
+            <br></br>
             <Aboutcard />
           </Col>
           <Col
@@ -43,7 +42,7 @@ function About() {
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        {/* <Toolstack /> */}
 
         <Github />
         <a href="https://github.com/Rkvishnu/github-readme-activity-graph">

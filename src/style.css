@@ -14,8 +14,15 @@ html {
     --imp-text-color: #c770f0;
   }
   
+  .logo{
+    border-radius: 50%;
+    width: 100px;
+    
+    max-height: "450px" 
+
+  }
   .purple {
-    color: var(--imp-text-color) !important;
+    color: #ff6699
   }
   
   button:focus {
@@ -257,11 +264,13 @@ html {
   .home-section {
     position: relative;
     z-index: -1;
-    background-image: var(--image-gradient), url(./Assets/home-bg.png);
-    background-position: top center;
-    background-repeat: no-repeat;
-    padding-bottom: 30px !important;
-    padding-top: 30px !important;
+    background-image:url(./Assets/meteor.svg);
+    
+   
+  }
+  .home-section-1{
+    background-image:url(./Assets/bubble.gif);
+    
   }
   
   .home-content {
@@ -281,7 +290,7 @@ html {
   }
   
   .main-name {
-    color: #cd5ff8;
+    color: #ff9933
   }
   
   .Typewriter__wrapper {
@@ -448,7 +457,7 @@ html {
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
+    background-image: url(./Assets/project-bg.gif);
   }
   
   .project-card {
@@ -546,7 +555,7 @@ html {
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
+    /* background-image: var(--section-background-color) !important; */
     color: white !important;
   }
   
@@ -605,8 +614,8 @@ html {
   .resume-section {
     position: relative !important;
     padding-top: 110px !important;
-    padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
+    padding-bottom: 230px !important;
+    background-image: url(./Assets/bg-res.gif);
     color: white !important;
   }
   
